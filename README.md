@@ -74,7 +74,7 @@ Users
 
 3. Enter the problem set repository on GitHub (this is online--GitHub is different from Git!). Click “Code” and copy the link in the box to your clipboard.
 
-4.  In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. Create this as a subdirectory of your problem set folder. An RStudio project should now open up, which will allow you to start working on your problem set. You will probably see a blank console screen. However, in RStudio you should also see a list of all of the files available. Click on whatever file you want to edit (probably the .Rmd file) and edit away. If you save and close R Studio and want to go back to editing your project, open up R Studio, then go to File -> Open Project. Navigate to the project directory and double click on the .Rproj file.
+4.  In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. **Create this as a subdirectory of your problem set folder.** An RStudio project should now open up, which will allow you to start working on your problem set. You will probably see a blank console screen. However, in RStudio you should also see a list of all of the files available. Click on whatever file you want to edit (probably the .Rmd file) and edit away. If you save and close R Studio and want to go back to editing your project, open up R Studio, then go to File -> Open Project. Navigate to the project directory and double click on the .Rproj file.
 
 Here is a visualization of cloning an assignment onto your computer through R Studio on a Mac:
 
