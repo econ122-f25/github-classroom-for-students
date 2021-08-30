@@ -9,7 +9,7 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 2. Download RStudio (https://www.rstudio.com/) and R (https://cran.r-project.org/)
 
-3. **Install Git.** Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
+3. **Install Git.** Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
 
 ![Alt Text](http://g.recordit.co/ENAZXCmgs9.gif)
 
