@@ -7,11 +7,11 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 ### Steps for getting setup with Git, GitHub, and RStudio
 1. **Install Git.** Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
 
+![Alt Text](http://g.recordit.co/ENAZXCmgs9.gif)
+
 2. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
 
 3. Download R (https://cran.r-project.org/) and RStudio (https://www.rstudio.com/)
-
-![Alt Text](http://g.recordit.co/ENAZXCmgs9.gif)
 
 4. **Setup options in Git**. In you have a Mac, open up the shell in R Studio by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) as shown above. If you have a Windows, open Git BASH, which you should have downloaded in step 3. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 8.1 in the above link carefully. Below is an example of what this process looks like on a Mac:
 
