@@ -17,8 +17,9 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 5. **Set up authentication method**. Git is a local program while GitHub is a remote repository. In order for your local machine to connect to GitHub, you must set up an authentication method. These include
     1. (recommended method) The default Git installation now comes with a credentials manager that manages the authentication for you. You will get prompted for your login information when you first try to clone a repository
-    2. Create a personal access token (https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-    3. Set up SSH (https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+        - You may need to update your Git version to use the new credentials manager. See https://phoenixnap.com/kb/how-to-update-git
+    3. Create a personal access token (https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+    4. Set up SSH (https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 6. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer. Here are step-by-step GIFs from a Mac that help visualize this process.
 
