@@ -2,7 +2,7 @@
 
 Note: This material is heavily adapted from Jacob Fisksel's own guide: https://github.com/jfiksel/github-classroom-for-students
 
-This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. However, this is not necessary.
+This is a guide for students to setup Git, GitHub, and RStudio and to ensure that all the components are able to properly interact together. Each component is an independent tool and they are not always used together. However, these components work well together when learning and applying data science. 
 
 ### Steps for getting setup with Git, GitHub, and RStudio
 0. **Read a little about Git/GitHub/R** to understand better why we are using this particular combination of tools (https://happygitwithr.com/big-picture.html)
