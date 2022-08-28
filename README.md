@@ -31,6 +31,8 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
 6. **Setup a new repository and make sure you can connect to it via RStudio** (https://happygitwithr.com/rstudio-git-github.html). You can ignore some of the items in 12.1 because we will skip Connecting directly to GitHub. We will always access GitHub via RStudio in this class. 
 
+    **Note: If you would like visual aids see https://book.cds101.com/how-to-stage-commit-and-push-to-github-using-rstudio-server.html**
+
 **Congratualations! You've succesfully setup all the software we need for the course!**
 
 7. **(Optional) Read some Git basics** (https://happygitwithr.com/git-intro.html)
