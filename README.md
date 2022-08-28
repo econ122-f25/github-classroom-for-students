@@ -5,43 +5,41 @@ Note: This material is heavily adapted from Jacob Fisksel's own guide: https://g
 This is a guide for students to setup Git and GitHub for use with GitHub Classroom. We use RStudio in our class, so we will give instructions on how to use RStudio to setup Git locally. However, this is not necessary.
 
 ### Steps for getting setup with Git, GitHub, and RStudio
-1. **Install Git.** Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
+0. **Read a little about Git/GitHub/R** to understand better why we are using this particular combination of tools (https://happygitwithr.com/big-picture.html)
+1. **Install Git**. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
 
-2. Register for account on GitHub (https://github.com/). We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
+2. **Register for account on GitHub (https://github.com/).** We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
 
-3. Download R (https://cran.r-project.org/) and RStudio (https://www.rstudio.com/)
+3. **Download R** (https://cran.r-project.org/) and **RStudio** (https://www.rstudio.com/)
 
-4. **Setup options in Git**. In you have a Mac, open up the shell in R Studio by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal). If you have a Windows, open Git BASH, which you should have downloaded in step 1. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should read section 7.1 in the above link carefully. Below is an example of what this process looks like on a Mac:
+4. **Setup options in Git.** We tell `Git` our name and email so it knows who to attribute changes to. While Git will still run without this step, you will receive an annoying warning message everytime you try to update your files. Use the following two commands to setup your name and email.
 
-![Alt Text](http://g.recordit.co/ibUp6dYimU.gif)
+    1.  `git config --global user.name 'Jane Doe'`
+    2.  `git config --global user.email 'jane@example.com'`
 
-5. **Set up authentication method**. Git is a local program while GitHub is a remote repository. In order for your local machine to connect to GitHub, you must set up an authentication method. These include
-    1. (recommended method) The default Git installation now comes with a credentials manager that manages the authentication for you. You will get prompted for your login information when you first try to clone a repository
-        - You may need to update your Git version to use the new credentials manager. See https://phoenixnap.com/kb/how-to-update-git
-    3. Create a personal access token (https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)
-    4. Set up SSH (https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+    The following command will confirm whether it worked or not: `git config --global --list`
 
-6. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer. Here are step-by-step GIFs from a Mac that help visualize this process.
+5. **Setup a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you setup your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
+    1. Go to https://github.com/settings/tokens and click “Generate new token."
+        1. Choose a date after the end of the semester or no expiration
+        2. Choose "repo,"user", and "workflow." 
+        3. Temporarily copy your PAT to your clipboard
+    2. Store your PAT so that you don't have to input it each time you access GitHub
+        1. Install an R package to help with PAT storage. In your RStudio "Console" tab, type `install.packages("gitcreds")`
+        2. Type `gitcreds::gitcreds_set()` and paste your PAT when prompted. 
+        3. Check that it worked by inputting `gitcreds::gitcreds_set()` This will allow you to connect to GitHub from RStudio in the next step.
 
-### Make a repo on GitHub
+6. **Setup a new repository and make sure you can connect to it via RStudio** (https://happygitwithr.com/rstudio-git-github.html). You can ignore some of the items in 12.1 because we will skip Connecting directly to GitHub. We will always access GitHub via RStudio in this class. 
 
-Below we make a repository and copy the link so that we can get the repository onto our own computer.
+**Congratualations! You've succesfully setup all the software we need for the course!**
 
-![Alt Text](http://g.recordit.co/Uw0QIT8XhR.gif)
-
-### Clone the repo to your local computer
-
-![Alt Text](http://g.recordit.co/0eLLGCclcO.gif)
-
-### Make a local change, commit, and push and confirm the local change propogated to the GitHub Remote
-
-![Alt Text](http://g.recordit.co/f24e9xvo6d.gif)
-
-**Congratualations! You've succesfully pushed your changes to GitHub!**
+7. **(Optional) Read some Git basics** (https://happygitwithr.com/git-intro.html)
 
 ## Steps for downloading and editing assignments from GitHub Classroom
 
-1. Have a folder specifically for this class (call it something like econ122_fall_2021). Within this folder, I would recommend a folder titled **home** (which will dynamically update the course materials) , as well a folder titled **problem_sets**.
+The previous steps were for setting up the software in general. The next steps are specific to how you should manage using Git/GitHub/RStudio for **this** class
+
+1. Have a folder specifically for this class (call it something like econ122). Within this folder, I would recommend a folder titled **home** (which will dynamically update the course materials) , as well a folder titled **problem_sets**.
 
 Here is a basic illustration of how my directory structure looks.
 
@@ -58,7 +56,7 @@ Users
         │
         │
         |
-        |---econ122_fall_2021
+        |---econ122
             |
             |
             |
@@ -99,7 +97,7 @@ Two things about committing. One, you should commit somewhat frequently. At mini
 
 This class has a repository that includes all the files related to this class. The most important files you'll be using are the in class **activities**. The repository will be updated throughout the semester, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Here are the steps.
 
-1. Open a new project in RStudio and use the repository **https://github.com/econ122-f21/home.git**. Create it under the econ122 folder you setup earlier.
+1. Open a new project in RStudio and use the repository **https://github.com/econ122-f22/home.git**. Create it under the econ122 folder you setup earlier.
 2. To pull in changes, goto the **Git** tab and click on **Pull**. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by me. I'll be doing my best to ensure this doesn't happen, but if it does, simply contact your me to get it worked out. Or even better, try to google the error message and try to fix it yourself!
 
 ### Resources
