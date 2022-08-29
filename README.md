@@ -6,7 +6,7 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
 ### Steps for getting setup with Git, GitHub, and RStudio
 0. **Read a little about Git/GitHub/R** to understand better why we are using this particular combination of tools (https://happygitwithr.com/big-picture.html)
-1. **Install Git**. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. Below, I show how you would access the terminal on a Mac, as well as how to enter the commands given in the link. Windows users should consult the video posted under Resources
+1. **Install Git**. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 6.2. Mac users can follow Option 1 in 6.3 if comfortable, otherwise follow Option 2. 
 
 2. **Register for account on GitHub (https://github.com/).** We recommend using a username that incorporates your name (jfiksel, mtaub, lrjager)
 
