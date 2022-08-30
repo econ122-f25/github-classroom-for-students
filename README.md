@@ -12,7 +12,7 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
 3. **Download R** (https://cran.r-project.org/) and **RStudio** (https://www.rstudio.com/)
 
-4. **Setup options in Git.** We tell `Git` our name and email so it knows who to attribute changes to. While Git will still run without this step, you will receive an annoying warning message everytime you try to update your files. Use the following two commands to setup your name and email.
+4. **Setup options in Git.** We tell `Git` our name and email so it knows who to attribute changes to. While Git will still run without this step, you will receive an annoying warning message everytime you try to update your files. In `Rstudio`, click on `Terminal` in the lower left pane and input the following two commands to setup your name and email.
 
     1.  `git config --global user.name 'Jane Doe'`
     2.  `git config --global user.email 'jane@example.com'`
@@ -33,7 +33,7 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
     **Note: If you would like visual aids see https://book.cds101.com/how-to-stage-commit-and-push-to-github-using-rstudio-server.html**
 
-**Congratualations! You've succesfully setup all the software we need for the course!**
+**Congratulations! You've succesfully setup all the software we need for the course!**
 
 7. **(Optional) Read some Git basics** (https://happygitwithr.com/git-intro.html)
 
