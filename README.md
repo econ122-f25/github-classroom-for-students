@@ -25,7 +25,7 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
         2. Choose "repo,"user", and "workflow." 
         3. Temporarily copy your PAT to your clipboard
     2. Store your PAT so that you don't have to input it each time you access GitHub
-        1. Install an R package to help with PAT storage. In your RStudio `Console` tab, type `install.packages("gitcreds")`
+        1. Install an R package to help with PAT storage. In your `RStudio Console` tab, type `install.packages("gitcreds")`
         2. Type `gitcreds::gitcreds_set()` and paste your PAT when prompted. 
         3. Check that it worked by inputting `gitcreds::gitcreds_set()` This will allow you to connect to GitHub from RStudio in the next step.
 
