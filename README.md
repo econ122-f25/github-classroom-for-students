@@ -19,10 +19,10 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
     The following command will confirm whether it worked or not: `git config --global --list`
 
-5. **Setup a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you setup your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
+5. **Setup a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you set up your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
     1. Go to https://github.com/settings/tokens and click “Generate new token."
         1. Choose a date after the end of the semester or no expiration
-        2. Choose "repo,"user", and "workflow." 
+        2. Choose "repo","user", and "workflow." 
         3. Temporarily copy your PAT to your clipboard
     2. Store your PAT so that you don't have to input it each time you access GitHub
         1. Install an R package to help with PAT storage. In your `RStudio Console` tab, type `install.packages("gitcreds")`
