@@ -12,14 +12,14 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
 3. **Download R** (https://cran.r-project.org/) and **RStudio** (https://www.rstudio.com/)
 
-4. **Setup options in Git.** We tell `Git` our name and email so it knows who to attribute changes to. In `Rstudio`, click on `Terminal` in the lower left pane and input the following two commands to setup your name and email.
+4. **Set up options in Git.** We tell `Git` our name and email so it knows who to attribute changes to. In `Rstudio`, click on `Terminal` in the lower left pane and input the following two commands to setup your name and email.
 
     1.  `git config --global user.name 'Jane Doe'`
     2.  `git config --global user.email 'jane@example.com'`
 
     The following command will confirm whether it worked or not: `git config --global --list`
 
-5. **Setup a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you set up your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
+5. **Set up a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you set up your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
     1. Go to https://github.com/settings/tokens and click “Generate new token."
         1. Choose a date after the end of the semester or no expiration
         2. Choose "repo","user", and "workflow." 
@@ -29,11 +29,11 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
         2. Type `gitcreds::gitcreds_set()` and paste your PAT when prompted. 
         3. Check that it worked by inputting `gitcreds::gitcreds_set()` This will allow you to connect to GitHub from RStudio in the next step.
 
-6. **Setup a new repository and make sure you can connect to it via RStudio** (https://happygitwithr.com/rstudio-git-github.html). You can ignore some of the items in 12.1 because we will skip Connecting directly to GitHub. We will always access GitHub via RStudio in this class. 
+6. **Set up a new repository and make sure you can connect to it via RStudio** (https://happygitwithr.com/rstudio-git-github.html). You can ignore some of the items in 12.1 because we will skip Connecting directly to GitHub. We will always access GitHub via RStudio in this class. 
 
     **Note: If you would like visual aids see https://book.cds101.com/how-to-stage-commit-and-push-to-github-using-rstudio-server.html**
 
-**Congratulations! You've succesfully setup all the software we need for the course!**
+**Congratulations! You've succesfully set up all the software we need for the course!**
 
 7. **(Optional) Read some Git basics** (https://happygitwithr.com/git-intro.html)
 
