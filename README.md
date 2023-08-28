@@ -100,7 +100,7 @@ Two things about committing. One, you should commit somewhat frequently. At mini
 This class has a repository that includes all the files related to this class. The most important files you'll be using are the in class **activities**. The repository will be updated throughout the semester, and it will be useful to constantly have the most updated materials on your local computer. You can do this by first cloning the repository, and then pulling in changes. Here are the steps.
 
 1. Open a new project in RStudio and use the repository **https://github.com/econ122-f23/home.git**. Create it under the econ122 folder you setup earlier.
-2. To pull in changes, goto the **Git** tab and click on **Pull**. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by me. I'll be doing my best to ensure this doesn't happen, but if it does, simply contact your me to get it worked out. Or even better, try to google the error message and try to fix it yourself!
+2. To pull in changes, goto the **Git** tab and click on **Pull**. If you get an error about merge conflict, don't freak out! This can happen if you edit locations in files that are also changed by me. I'll be doing my best to ensure this doesn't happen, but if it does, simply contact me to get it worked out. Or even better, try to google the error message and try to fix it yourself!
 
 ### Resources
 * [Happy Git and GitHub for the useR](http://happygitwithr.com/)
