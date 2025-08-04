@@ -41,7 +41,7 @@ This is a guide for students to setup Git, GitHub, and RStudio and to ensure tha
 
 The previous steps were for setting up the software in general. The next steps are specific to how you should manage using Git/GitHub/RStudio for **this** class
 
-1. Have a folder specifically for this class (call it something like econ122). Within this folder, I would recommend a folder titled **home** (which will dynamically update the course materials) , as well a folder titled **problem_sets**.
+1. Have a folder specifically for this class (call it something like econ122). Within this folder, I would recommend a folder titled **home** for your activities, as well a folder titled **problem_sets**.
 
 Here is a basic illustration of how my directory structure looks.
 
