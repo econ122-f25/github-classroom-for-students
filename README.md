@@ -22,7 +22,7 @@ For useful videos see [Git setup for Windows](https://youtu.be/F_fPEMnr1OQ) or [
     The following command will confirm whether it worked or not: `git config --global --list`
 
 5. **Set up a PERSONAL ACCESS TOKEN**. In order for your local machine to make changes to your GitHub account there needs to be some way to authenticate that you are the actual owner of the account. GitHub no longer allows authentication using the password you used when you set up your account online and prefers you use something call a PERSONAL ACCESS TOKEN (PAT). 
-    1. Go to https://github.com/settings/tokens and click “Generate new token."
+    1. Go to https://github.com/settings/tokens and click “Generate new token." *MAKE SURE TO CHOOSE A CLASSIC TOKEN*
         1. Choose a date after the end of the semester or no expiration
         2. Choose "repo","user", and "workflow." 
         3. Temporarily copy your PAT to your clipboard
